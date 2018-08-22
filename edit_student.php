@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>แก้ไขข้อมูลนักศึกษา</title>
 </head>
 <body>
