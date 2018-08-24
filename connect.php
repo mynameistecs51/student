@@ -15,4 +15,5 @@ mysql_query("SET character_set_client=utf8");
 mysql_query("SET character_set_connection=utf8");
 
 session_start(); //ประกาศใช้ session
+$url = $_SERVER['SERVER_NAME'];
 ?>

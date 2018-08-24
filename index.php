@@ -12,7 +12,6 @@
 //ให้แสดงชื่อผู้ใช้ และข้อความ ลงชื่อออกจากระบบ
    echo "<h2 align='right'> คุณ ".$_SESSION['full_name']." /<a href='logout.php' align='right'>ลงชื่อออก</a></h2>";
  }
-
 //สร้างคำสั่ง SQL
  $strSql = "SELECT * FROM student";
   $result = mysql_query($strSql)or die("Query Error "); // เชค query Sql ถ้า query ไม่ผ่านจะขึ้นแสดงข้อความแจ้งเตือน
