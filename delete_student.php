@@ -1,4 +1,6 @@
 <?php
+echo  '  <meta charset="utf-8">';//แสดง meta data charset ให้เป็น utf8
+
 // เรียกใช้ไฟล์ connect
 include "connect.php";
 //เช็คว่ามีการลงชื่อเข้าใช้ระบบหรือยัง
